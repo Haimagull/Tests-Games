@@ -114,7 +114,7 @@ root.title("Elf name generator")
 
 #Uploading background image
 try:
-    bg_image = Image.open("/Applications/Documents/Codes/IA_bg_elfname.jpg")  # Calling image
+    bg_image = Image.open("IA_bg_elfname.jpg")  # Calling image
     bg_image = bg_image.resize((1400, 800))  # Resizing according to window size
     bg_photo = ImageTk.PhotoImage(bg_image)
     # creating canvas
